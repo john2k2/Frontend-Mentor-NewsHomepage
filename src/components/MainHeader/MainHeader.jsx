@@ -22,7 +22,7 @@ const MainHeader = () => {
     };
 
     return (
-        <div className="container  mx-auto w-full px-3 md:container md:mx-auto md:flex md:w-full md:px-3 ">
+        <div className="container  mx-auto w-full px-3 md:container md:mx-auto md:flex md:h-[12vh] md:w-full md:px-3 ">
             <section className="mx-auto grid h-24 w-full grid-cols-2 items-center py-8 ">
                 <LogoIcon />
 
