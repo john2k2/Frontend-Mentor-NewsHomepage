@@ -1,11 +1,16 @@
 import "./App.css";
 
 //componets
+import MainHeader from "./components/MainHeader/MainHeader";
+import MainHero from "./components/Hero/MainHero";
+import NewSection from "./components/FooterSection/NewSection";
 
 function App() {
     return (
         <div className="App">
-            <h1>hello world</h1>
+            <MainHeader />
+            <MainHero />
+            <NewSection />
         </div>
     );
 }
