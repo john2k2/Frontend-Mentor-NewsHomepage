@@ -31,37 +31,37 @@ const MainHero = () => {
                     </div>
                 </div>
             </div>
-            <div className="md:p- grid grid-cols-1 gap-8 bg-Very-dark-blue p-8 hover:text-Soft-orange md:w-[80%] md:gap-0">
-                <h2 className="text-4xl font-extrabold text-Soft-orange md:h-0">
+            <div className="grid grid-cols-1 gap-8 bg-Very-dark-blue p-8 hover:text-Soft-orange">
+                <h2 className="text-4xl font-extrabold text-Soft-orange">
                     New
                 </h2>
-                <div className="pb-4">
-                    <h3 className="mb-2 cursor-pointer text-[1.3rem] font-bold text-white hover:text-Soft-orange md:mt-auto ">
-                        Hydrogen VS Electric Cars
-                    </h3>
-                    <p className="text-lg text-Off-white md:flex md:h-0 ">
-                        Will hydrogen-fueled cars ever catch up to EVs?
-                    </p>
-                </div>
-                <span className="h-[1px] w-full bg-Off-white "></span>
-                <div className="pb-4">
-                    <h3 className="mb-2 cursor-pointer text-[1.2rem] font-bold text-white hover:text-Soft-orange md:mt-auto  ">
-                        The Downsides of AI Artistry
-                    </h3>
-                    <p className="text-lg text-Off-white md:h-0 ">
-                        What are the possible adverse effects of on-demand AI
-                        image generation?
-                    </p>
-                </div>
-                <span className="h-[1px] w-full bg-Off-white "></span>
-                <div className="pb-4">
-                    <h3 className="mb-2 cursor-pointer text-[1.3rem] font-bold text-white hover:text-Soft-orange md:mt-auto  ">
-                        Is VC Funding Drying Up?
-                    </h3>
-                    <p className="text-lg text-Off-white md:h-0">
-                        Private funding by VC firms is down 50% YOY. We take a
-                        look at what that means.
-                    </p>
+                <div>
+                    <div className="border-b-2 pb-4">
+                        <h3 className="mb-2 cursor-pointer text-xl font-bold text-white hover:text-Soft-orange ">
+                            Hydrogen VS Electric Cars
+                        </h3>
+                        <p className="text-lg text-Off-white md:text-base ">
+                            Will hydrogen-fueled cars ever catch up to EVs?
+                        </p>
+                    </div>
+                    <div className="border-b-2 pb-4">
+                        <h3 className="mb-2 cursor-pointer text-xl font-bold text-white hover:text-Soft-orange  ">
+                            The Downsides of AI Artistry
+                        </h3>
+                        <p className="text-lg text-Off-white md:text-base">
+                            What are the possible adverse effects of on-demand
+                            AI image generation?
+                        </p>
+                    </div>
+                    <div className="border-b-2 pb-4 ">
+                        <h3 className="mb-2 cursor-pointer text-xl font-bold text-white hover:text-Soft-orange  ">
+                            Is VC Funding Drying Up?
+                        </h3>
+                        <p className="text-lg text-Off-white md:text-base ">
+                            Private funding by VC firms is down 50% YOY. We take
+                            a look at what that means.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
